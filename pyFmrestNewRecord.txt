@@ -1,0 +1,12 @@
+import fmrest
+import json
+
+str1 = '{"key1":"JSON222222","data1": "JSON444444"}'
+j = json.loads(str1)
+
+
+fms = fmrest.Server('https:filemakerhost',user='username',password='password',database='database',layout='TESTForFMREST',api_version='v1')
+fms.login()
+
+pluto = fms.create_record(j)
+
