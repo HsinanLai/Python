@@ -1,6 +1,5 @@
 #-------------------------------------------------------------------------------------
 # ProgName: Python Multi Thread and JSON process and Transfer Data from MSSQL TO Filemaker by ODATA 
-# ProgAuthor: Jeff Lai
 # ProgDate: 2022/12/1
 # ProgDesc: 
 #      1. 讀取MSSQL 的Transaction Data 的資料轉存至FileMaker
@@ -9,8 +8,8 @@
 #      4. 增加平行處理能力 Multi Thread and Parallel Process
 #
 # Modification Hist:
-# RemarkID   Author   date     Description   Remark
-# 20221129JL Jeff Lai 20221129 Init
+# RemarkID    date     Description   Remark
+# 20221129JL 20221129 Init
 #-----------------------------------------------------------------------------------------
 
 import fmrest
